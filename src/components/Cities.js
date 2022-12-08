@@ -20,8 +20,6 @@ function Cities() {
     },
   ];
 
-  console.log(cities);
-
   return (
     <div>
       <ul className="cities-container">
