@@ -1,10 +1,12 @@
 import React from 'react';
 
-function City() {
+function City(props) {
+  const city = props;
+
   return (
     <div className="city-container">
-      <p className="city-name">BagDad</p>
-      <p className="city-temp">30 °C</p>
+      <p className="city-name">{city.name}</p>
+      <p className="city-temp">{city.temperature}</p>
     </div>
   );
 }
