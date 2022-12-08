@@ -6,14 +6,14 @@ import setting from '../images/settings.png';
 
 function NavBar() {
   return (
-    <header className='nav-bar'>
-      <nav className='navigation'>
-        <NavLink to='/' >
-          <img src={left} className='back-button' alt='back'/>
+    <header className="nav-bar">
+      <nav className="navigation">
+        <NavLink to="/">
+          <img src={left} className="back-button" alt="back" />
         </NavLink>
-        <div className='right-icons'>
-          <img src={micro} className='micro' alt='micro'/>
-          <img src={setting} className='settings-icon' alt='settings'/>
+        <div className="right-icons">
+          <img src={micro} className="micro" alt="micro" />
+          <img src={setting} className="settings-icon" alt="settings" />
         </div>
       </nav>
     </header>
