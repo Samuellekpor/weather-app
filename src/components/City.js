@@ -7,7 +7,7 @@ function City(props) {
     <div className="city-container">
       <a href={city.name}>
         <p className="city-name">{city.name}</p>
-        <p className="city-temp">{city.temperature}</p>
+        <p className="city-temp">{city.countryName}</p>
       </a>
     </div>
   );
