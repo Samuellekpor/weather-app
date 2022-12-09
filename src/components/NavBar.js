@@ -9,11 +9,11 @@ function NavBar() {
     <header className="nav-bar">
       <nav className="navigation">
         <NavLink to="/">
-          <img src={left} className="back-button" alt="back" />
+          <img src={left} className="icons" alt="back" />
         </NavLink>
         <div className="right-icons">
-          <img src={micro} className="micro" alt="micro" />
-          <img src={setting} className="settings-icon" alt="settings" />
+          <img src={micro} className="icons" alt="micro" />
+          <img src={setting} className="icons" alt="settings" />
         </div>
       </nav>
     </header>

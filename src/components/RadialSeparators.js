@@ -1,13 +1,14 @@
-import React from "react";
-import _ from "lodash";
+/* eslint-disable */
+import React from 'react';
+import _ from 'lodash';
 
 function Separator(props) {
   return (
     <div
       style={{
-        position: "absolute",
-        height: "100%",
-        transform: `rotate(${props.turns}turn)`
+        position: 'absolute',
+        height: '100%',
+        transform: `rotate(${props.turns}turn)`,
       }}
     >
       <div style={props.style} />
@@ -17,7 +18,7 @@ function Separator(props) {
 
 function RadialSeparators(props) {
   const turns = 1 / props.count;
-  return _.range(props.count).map(index => (
+  return _.range(props.count).map((index) => (
     <Separator turns={index * turns} style={props.style} />
   ));
 }

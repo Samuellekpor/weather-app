@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-// import { useDispatch, useSelector } from 'react-redux';
 import City from './City';
-// import { fetchCities } from '../redux/cities';
 
 function Cities({ cities }) {
   const [input, setInput] = useState('');
@@ -18,7 +16,10 @@ function Cities({ cities }) {
         {
           cities.filter((city) => (input.toLowerCase() === '' ? city : city.cityName.toLowerCase().includes(input))).map((city) => (
             <li key={city.id}>
-              <City name={city.cityName} countryName={city.country} />
+              <City
+                name={city.cityName}
+                countryName={city.country}
+              />
             </li>
           ))
         }

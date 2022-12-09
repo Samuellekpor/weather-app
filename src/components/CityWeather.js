@@ -3,10 +3,10 @@ import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   CircularProgressbarWithChildren,
-  buildStyles
-} from "react-circular-progressbar";
-import RadialSeparators from "./RadialSeparators";
-import "react-circular-progressbar/dist/styles.css";
+  buildStyles,
+} from 'react-circular-progressbar';
+import RadialSeparators from './RadialSeparators';
+import 'react-circular-progressbar/dist/styles.css';
 import getCityWeatherFromApi from '../redux/city-weather';
 
 function CityWeather() {
@@ -26,39 +26,43 @@ function CityWeather() {
   return (
     <div>
       {state.length > 0 && (
-        <div className='weatherDetails'>
-          <div className='detailsTitle'>
-            <h4 className='cityName'>{name}</h4>
-            <p className='temp'>{`${state[0].temperature} °C`}</p>
+        <div className="weatherDetails" key={state[0].id}>
+          <div className="detailsTitle">
+            <h4 className="cityName">{name}</h4>
+            <p className="temp">{`${state[0].temperature} °C`}</p>
           </div>
-          <img className='weatherIcon' src={`https://openweathermap.org/img/wn/${state[0].icon}@2x.png`} alt='/' />
-          <p className='mainWeather'>{state[0].main}</p>
-          <p className='weatherDescription'>{state[0].description}</p>
-          <div className='humidity'>
-            <h4 className='humTitle'>Humidity:</h4>
+          <img className="weatherIcon" src={`https://openweathermap.org/img/wn/${state[0].icon}@2x.png`} alt="/" />
+          <p className="mainWeather">{state[0].main}</p>
+          <p className="weatherDescription">{state[0].description}</p>
+          <div className="humidity">
+            <h4 className="humTitle">Humidity:</h4>
             <CircularProgressbarWithChildren
-              value={80}
-              text={`${80}%`}
+              value={state[0].humidity}
+              text={`${state[0].humidity}%`}
               strokeWidth={10}
               styles={buildStyles({
-                strokeLinecap: "butt"
+                strokeLinecap: 'butt',
               })}
             >
-            <RadialSeparators
-              count={12}
-              style={{
-                background: "#fff",
-                width: "2px",
-                // This needs to be equal to props.strokeWidth
-                height: `${10}%`
-              }}
-            />
+              <RadialSeparators
+                count={12}
+                style={{
+                  background: '#fff',
+                  width: '2px',
+                  // This needs to be equal to props.strokeWidth
+                  height: `${10}%`,
+                }}
+              />
             </CircularProgressbarWithChildren>
+          </div>
+          <div className="visibility">
+            <h4 className="visTitle">Visibility:</h4>
+            <span className="visibilityDetail">{state[0].visibility}</span>
           </div>
         </div>
       )}
     </div>
-  )
+  );
 }
 
 export default CityWeather;

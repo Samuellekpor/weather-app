@@ -10,19 +10,19 @@ import Details from './components/Details';
 function App() {
   const dispatch = useDispatch();
   const effectRan = useRef(false);
-  const state = useSelector((state)=>state.cities.cities);
+  const state = useSelector((state) => state.cities.cities);
 
-  useEffect(()=> {
+  useEffect(() => {
     if (effectRan.current || process.env.NODE_ENV !== 'development') {
-    dispatch(getCitiesFromApi())
+      dispatch(getCitiesFromApi());
     }
     effectRan.current = true;
-  },[dispatch])
+  }, [dispatch]);
   return (
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home cities = {state}/>} />
+        <Route path="/" element={<Home cities={state} />} />
         <Route path="/:name" element={<Details />} />
       </Routes>
     </Router>
