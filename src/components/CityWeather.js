@@ -27,13 +27,17 @@ function CityWeather() {
     <div>
       {state.length > 0 && (
         <div className="weatherDetails" key={state[0].id}>
-          <div className="detailsTitle">
+          <div className="detTitle">
             <h4 className="cityName">{name}</h4>
             <p className="temp">{`${state[0].temperature} °C`}</p>
           </div>
           <img className="weatherIcon" src={`https://openweathermap.org/img/wn/${state[0].icon}@2x.png`} alt="/" />
-          <p className="mainWeather">{state[0].main}</p>
-          <p className="weatherDescription">{state[0].description}</p>
+          <p className="mainWeather">
+            {state[0].main}
+            :
+            {' '}
+            {state[0].description}
+          </p>
           <div className="humidity">
             <h4 className="humTitle">Humidity:</h4>
             <CircularProgressbarWithChildren

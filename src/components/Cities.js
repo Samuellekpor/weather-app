@@ -6,12 +6,15 @@ function Cities({ cities }) {
 
   return (
     <div>
-      <input
-        type="search"
-        value={input}
-        placeholder="Enter the city name"
-        onChange={(e) => setInput(e.target.value)}
-      />
+      <div className="inputWrapper">
+        <input
+          className="inputField"
+          type="search"
+          value={input}
+          placeholder="Enter the city name"
+          onChange={(e) => setInput(e.target.value)}
+        />
+      </div>
       <ul className="cities-container">
         {
           cities.filter((city) => (input.toLowerCase() === '' ? city : city.cityName.toLowerCase().includes(input))).map((city) => (
