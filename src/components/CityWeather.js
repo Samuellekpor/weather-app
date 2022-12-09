@@ -40,28 +40,36 @@ function CityWeather() {
           </p>
           <div className="humidity">
             <h4 className="humTitle">Humidity:</h4>
-            <CircularProgressbarWithChildren
-              value={state[0].humidity}
-              text={`${state[0].humidity}%`}
-              strokeWidth={10}
-              styles={buildStyles({
-                strokeLinecap: 'butt',
-              })}
-            >
-              <RadialSeparators
-                count={12}
-                style={{
-                  background: '#fff',
-                  width: '2px',
-                  // This needs to be equal to props.strokeWidth
-                  height: `${10}%`,
-                }}
-              />
-            </CircularProgressbarWithChildren>
+            <div className="humBar">
+              <CircularProgressbarWithChildren
+                value={state[0].humidity}
+                text={`${state[0].humidity}%`}
+                strokeWidth={10}
+                styles={buildStyles({
+                  strokeLinecap: 'butt',
+                  pathColor: '#3f63a6',
+                  width: '20px',
+                  height: '20px',
+                })}
+              >
+                <RadialSeparators
+                  count={12}
+                  style={{
+                    background: '#fff',
+                    width: '2px',
+                    // This needs to be equal to props.strokeWidth
+                    height: `${10}%`,
+                  }}
+                />
+              </CircularProgressbarWithChildren>
+            </div>
           </div>
           <div className="visibility">
             <h4 className="visTitle">Visibility:</h4>
-            <span className="visibilityDetail">{state[0].visibility}</span>
+            <span className="visibilityDetail">
+              {state[0].visibility}
+              {' km'}
+            </span>
           </div>
         </div>
       )}

@@ -1,5 +1,6 @@
-.App {
-  text-align: center;
+#root {
+  background-color: #1D1D1D;
+  min-height: 789px;
 }
  .nav-bar {
   background-color: #4369B2;
@@ -57,7 +58,7 @@
 }
 
 .cities-container > li:nth-child(2n+2) a {
-  background-color: #3F62A5;
+  background-color: #3f63a6;
   color: #fff;
 }
 
@@ -75,6 +76,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: fit-content;
 }
 
 .weatherIcon {
@@ -84,11 +86,41 @@
   background-color: #132e60;
 }
 
+.mainWeather {
+  font-size: 18px;
+}
+
 .detTitle {
   display: flex;
   justify-content: space-evenly;
   padding: 10px 15px;
   font-size: 22px;
   align-items: center;
-  gap: 250px;
+  gap: 210px;
+}
+
+.humidity {
+  display: flex;
+  gap: 100px;
+  padding: 35px 0;
+}
+
+.humTitle, .visTitle {
+  font-size: 20px;
+}
+
+.humBar {
+  width: 100px;
+  height: 100px;
+}
+
+.visibility {
+  display: flex;
+  gap: 150px;
+  padding: 35px 0;
+  align-items: center;
+}
+
+.visibilityDetail {
+  font-size: 18px;
 }
