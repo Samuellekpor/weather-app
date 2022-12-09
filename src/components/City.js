@@ -5,8 +5,10 @@ function City(props) {
 
   return (
     <div className="city-container">
-      <p className="city-name">{city.name}</p>
-      <p className="city-temp">{city.temperature}</p>
+      <a href={city.name}>
+        <p className="city-name">{city.name}</p>
+        <p className="city-temp">{city.temperature}</p>
+      </a>
     </div>
   );
 }
