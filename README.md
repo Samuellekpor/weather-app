@@ -56,6 +56,8 @@
 
 - [Live Demo Link](https://6393e95d25a7ad35f0b6507c--dreamy-sundae-62b658.netlify.app/)
 
+- [Description Video Link](https://www.loom.com/share/44b7d729960a4bc8abc9c48d0409abbe)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
