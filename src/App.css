@@ -1,37 +1,39 @@
 #root {
-  background-color: #1D1D1D;
+  background-color: #1d1d1d;
   min-height: 789px;
 }
- .nav-bar {
-  background-color: #4369B2;
- }
 
- .navigation {
+.nav-bar {
+  background-color: #4369b2;
+}
+
+.navigation {
   display: flex;
   justify-content: space-between;
- }
+}
 
- .home-title, .detailsTitle {
+.home-title,
+.detailsTitle {
   text-align: center;
   font-size: 22px;
   color: #fff;
   background-color: #345288;
   margin: 0;
   padding: 10px 0;
- }
+}
 
- .icons {
+.icons {
   height: 25px;
   margin: 15px;
   cursor: pointer;
- }
+}
 
- .inputWrapper {
+.inputWrapper {
   display: flex;
   justify-content: center;
- }
+}
 
- input {
+input {
   width: 100%;
   border: none;
   border-bottom: 2px solid #345288;
@@ -40,26 +42,16 @@
   box-sizing: border-box;
   border-radius: 4px;
   font-size: 18px;
- }
+}
 
- input:focus {
+input:focus {
   border: 3px solid #555;
- }
+}
 
 .cities-container {
   list-style-type: none;
   padding: 0;
   margin: 0;
-}
-.cities-container > li a {
-  background-color: #5687E4;
-  color: #fff;
-  font-size: 18px;
-}
-
-.cities-container > li:nth-child(2n+2) a {
-  background-color: #3f63a6;
-  color: #fff;
 }
 
 .city-container a {
@@ -70,13 +62,23 @@
   padding: 0 50px;
 }
 
+.cities-container > li a {
+  background-color: #5687e4;
+  color: #fff;
+  font-size: 18px;
+}
+
+.cities-container > li:nth-child(2n+2) a {
+  background-color: #3f63a6;
+  color: #fff;
+}
+
 .weatherDetails {
   color: #fff;
-  background-color: #1D1D1D;
+  background-color: #1d1d1d;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: fit-content;
 }
 
 .weatherIcon {
@@ -105,7 +107,8 @@
   padding: 35px 0;
 }
 
-.humTitle, .visTitle {
+.humTitle,
+.visTitle {
   font-size: 20px;
 }
 
