@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`City component should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="weatherDetails"
+        >
+          <div
+            class="detTitle"
+          >
+            <h4
+              class="cityName"
+            />
+            <p
+              class="temp"
+            >
+              23.98 °C
+            </p>
+          </div>
+          <img
+            alt="/"
+            class="weatherIcon"
+            src="https://openweathermap.org/img/wn/10n@2x.png"
+          />
+          <p
+            class="mainWeather"
+          >
+            Rain
+            :
+             
+            light rain
+          </p>
+          <div
+            class="humidity"
+          >
+            <h4
+              class="humTitle"
+            >
+              Humidity:
+            </h4>
+            <div
+              class="humBar"
+            >
+              <div
+                data-test-id="CircularProgressbarWithChildren"
+              >
+                <div
+                  style="position: relative; width: 100%; height: 100%;"
+                >
+                  <svg
+                    class="CircularProgressbar "
+                    data-test-id="CircularProgressbar"
+                    viewBox="0 0 100 100"
+                  >
+                    <path
+                      class="CircularProgressbar-trail"
+                      d="
+      M 50,50
+      m 0,-45
+      a 45,45 0 1 1 0,90
+      a 45,45 0 1 1 0,-90
+    "
+                      fill-opacity="0"
+                      stroke-width="10"
+                      style="stroke-linecap: butt; stroke-dasharray: 282.7433388230814px 282.7433388230814px; stroke-dashoffset: 0px;"
+                    />
+                    <path
+                      class="CircularProgressbar-path"
+                      d="
+      M 50,50
+      m 0,-45
+      a 45,45 0 1 1 0,90
+      a 45,45 0 1 1 0,-90
+    "
+                      fill-opacity="0"
+                      stroke-width="10"
+                      style="stroke: #3f63a6; stroke-linecap: butt; stroke-dasharray: 282.7433388230814px 282.7433388230814px; stroke-dashoffset: 0px;"
+                    />
+                    <text
+                      class="CircularProgressbar-text"
+                      x="50"
+                      y="50"
+                    >
+                      100%
+                    </text>
+                  </svg>
+                  <div
+                    data-test-id="CircularProgressbarWithChildren__children"
+                    style="position: absolute; width: 100%; height: 100%; margin-top: -100%; display: flex; flex-direction: column; justify-content: center; align-items: center;"
+                  >
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0.08333333333333333turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0.16666666666666666turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0.25turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0.3333333333333333turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0.41666666666666663turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0.5turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0.5833333333333333turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0.6666666666666666turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0.75turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0.8333333333333333turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                    <div
+                      style="position: absolute; height: 100%; transform: rotate(0.9166666666666666turn);"
+                    >
+                      <div
+                        style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="visibility"
+          >
+            <h4
+              class="visTitle"
+            >
+              Visibility:
+            </h4>
+            <span
+              class="visibilityDetail"
+            >
+              10000
+               km
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="weatherDetails"
+      >
+        <div
+          class="detTitle"
+        >
+          <h4
+            class="cityName"
+          />
+          <p
+            class="temp"
+          >
+            23.98 °C
+          </p>
+        </div>
+        <img
+          alt="/"
+          class="weatherIcon"
+          src="https://openweathermap.org/img/wn/10n@2x.png"
+        />
+        <p
+          class="mainWeather"
+        >
+          Rain
+          :
+           
+          light rain
+        </p>
+        <div
+          class="humidity"
+        >
+          <h4
+            class="humTitle"
+          >
+            Humidity:
+          </h4>
+          <div
+            class="humBar"
+          >
+            <div
+              data-test-id="CircularProgressbarWithChildren"
+            >
+              <div
+                style="position: relative; width: 100%; height: 100%;"
+              >
+                <svg
+                  class="CircularProgressbar "
+                  data-test-id="CircularProgressbar"
+                  viewBox="0 0 100 100"
+                >
+                  <path
+                    class="CircularProgressbar-trail"
+                    d="
+      M 50,50
+      m 0,-45
+      a 45,45 0 1 1 0,90
+      a 45,45 0 1 1 0,-90
+    "
+                    fill-opacity="0"
+                    stroke-width="10"
+                    style="stroke-linecap: butt; stroke-dasharray: 282.7433388230814px 282.7433388230814px; stroke-dashoffset: 0px;"
+                  />
+                  <path
+                    class="CircularProgressbar-path"
+                    d="
+      M 50,50
+      m 0,-45
+      a 45,45 0 1 1 0,90
+      a 45,45 0 1 1 0,-90
+    "
+                    fill-opacity="0"
+                    stroke-width="10"
+                    style="stroke: #3f63a6; stroke-linecap: butt; stroke-dasharray: 282.7433388230814px 282.7433388230814px; stroke-dashoffset: 0px;"
+                  />
+                  <text
+                    class="CircularProgressbar-text"
+                    x="50"
+                    y="50"
+                  >
+                    100%
+                  </text>
+                </svg>
+                <div
+                  data-test-id="CircularProgressbarWithChildren__children"
+                  style="position: absolute; width: 100%; height: 100%; margin-top: -100%; display: flex; flex-direction: column; justify-content: center; align-items: center;"
+                >
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0.08333333333333333turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0.16666666666666666turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0.25turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0.3333333333333333turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0.41666666666666663turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0.5turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0.5833333333333333turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0.6666666666666666turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0.75turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0.8333333333333333turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                  <div
+                    style="position: absolute; height: 100%; transform: rotate(0.9166666666666666turn);"
+                  >
+                    <div
+                      style="background: rgb(255, 255, 255); width: 2px; height: 10%;"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="visibility"
+        >
+          <h4
+            class="visTitle"
+          >
+            Visibility:
+          </h4>
+          <span
+            class="visibilityDetail"
+          >
+            10000
+             km
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
