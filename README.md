@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://6393e95d25a7ad35f0b6507c--dreamy-sundae-62b658.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

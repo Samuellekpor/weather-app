@@ -6,14 +6,14 @@ function Cities() {
     {
       id: 2293538,
       cityName: 'Abidjan',
-      country: 'Ivory Coast'
+      country: 'Ivory Coast',
     },
     {
       id: 2306104,
       cityName: 'Accra',
-      country: 'Ghana'
+      country: 'Ghana',
     },
-  ]
+  ];
   const input = 'acc';
 
   return (
@@ -24,7 +24,7 @@ function Cities() {
           type="search"
           value={input}
           placeholder="Enter the city name"
-          onChange={(e) => setInput(e.target.value)}
+          onChange={(e) => (e.target.value)}
         />
       </div>
       <ul className="cities-container">

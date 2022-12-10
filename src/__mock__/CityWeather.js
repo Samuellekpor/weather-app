@@ -15,9 +15,9 @@ function CityWeather() {
       temperature: '23.98',
       visibility: 10000,
       humidity: 100,
-      icon: '10n'
-    }
-  ]
+      icon: '10n',
+    },
+  ];
 
   return (
     <div>
